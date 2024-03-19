@@ -15,5 +15,5 @@ Implemented React Components and hooks like UseState, UseEffect and also used Ch
 
 ## Preview
 <div style="width: 200px; height:auto;">
-<img src="https://github.com/erenivon/ulvichat/assets/42775426/0e5f2bee-9325-4377-bf3e-2baed4746757">
+<img src="https://github.com/erenivon/ulvichat/assets/42775426/dd87c733-2cff-4f95-b990-7abb03390773">
 </div>
