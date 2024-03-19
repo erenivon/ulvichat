@@ -97,8 +97,8 @@ function App() {
         <Container h={"100vh"} backgroundColor={"#151d23"}>
           <VStack h="full" paddingY={"4"}>
             <Button onClick={logoutHandler} backgroundColor={"#2a3942"} colorScheme="black" w={"full"}>
-              Çıkış Yap 
-              <IoIosLogOut width={"20px"}/>
+              Log Out 
+              <IoIosLogOut />
             </Button>
 
             <VStack
@@ -131,7 +131,7 @@ function App() {
                   border={"0"}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  placeholder="Mesajınızı girin..."
+                  placeholder="Enter message..."
                 />
                 <Button backgroundColor={"#00a884"} color={"white"} colorScheme={"green"} type="submit">
                   <IoSend />
@@ -143,7 +143,7 @@ function App() {
       ) : (
         <VStack bg="#001c36" justifyContent={"center"} h="100vh">
           <Button onClick={loginHandler} colorScheme={"purple"}>
-            Google ile giriş yap
+            Sign in via Google
           </Button>
         </VStack>
       )}
