@@ -1,4 +1,4 @@
-# React Project 
+# React & Vite Project 
 
 Designed and developed a real-time chat website using React.js and Firebase, providing users with an
 interactive platform for seamless communication.
