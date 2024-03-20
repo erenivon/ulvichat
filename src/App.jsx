@@ -86,10 +86,10 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (divForScroll.current) {
+    if (divForScroll.current && user ) {
       divForScroll.current.scrollIntoView({ behavior: "smooth", block: "end" });
     }
-  }, [messages]);
+  }, [user, messages]);
 
   return (
     <Box bg={"#202c33"}>
