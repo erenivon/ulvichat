@@ -6,7 +6,7 @@ const Message = ({text,uri,user = "other"}) => {
   return (
     <HStack alignSelf = {user === "me" ? "flex-end" : "flex-start"} borderRadius={"base"} bg = {user === "me" ? "#005c4b" : "#202c33"} paddingX={"4"} paddingY={"2"} color={"white"} >
         {
-            user === "other" && <Avatar src = {uri}>
+            user === "other" && <Avatar src = {uri}/>
         }
         
         <Text>
